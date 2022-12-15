@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh -T -o StrictHostKeyChecking=no ubuntu@172.31.22.182 <<EOF 
+sshpass -p "ubuntu" ssh -T ubuntu@172.31.22.182 <<EOF 
 sudo su -
 cd /var/www/html/
 pm2 status
