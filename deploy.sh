@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh ubuntu@10.0.10.250 <<EOF 
+ssh ubuntu@172.31.22.182 <<EOF 
 sudo su -
 cd /var/www/html/
 pm2 status
