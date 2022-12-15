@@ -6,7 +6,7 @@ pm2 status
 pm2 delete react-site
 pm2 status
 rm -rf react_notes_app
-git clone  -b $1
+git clone https://github.com/SakshiDhiman/react_notes_app.git -b $1
 cd react_notes_app
 pwd
 npm install
