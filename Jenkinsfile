@@ -11,4 +11,11 @@ pipeline{
             }
         }
     }
+    post{
+        always{
+            mail to: "dhimans9831@gmail.com",
+            subject: "Test Email",
+            body: "Test"
+        }
+    }
 }
