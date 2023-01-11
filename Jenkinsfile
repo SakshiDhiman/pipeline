@@ -1,3 +1,4 @@
+currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
 pipeline{
     agent {label 'slave1'}
     environment {
