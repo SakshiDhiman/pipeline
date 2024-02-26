@@ -17,7 +17,7 @@ pipeline{
         stage('Checkout') {
             steps {
                 // Checkout the code from Bitbucket repository
-                git 'https://username:password@bitbucket.org/username/repo.git'
+                git 'https://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@github.com/SakshiDhiman/cftest.git'
             }
         }
         
