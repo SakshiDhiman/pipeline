@@ -1,7 +1,7 @@
 currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
 pipeline{
     #agent {label 'slave1'}
-    agent {label 'slave1'}
+    agent {label 'windows'}
     environment {
         currentDate = sh(returnStdout: true, script: 'date +%Y%m%d.%H%M%S').trim()
     }
