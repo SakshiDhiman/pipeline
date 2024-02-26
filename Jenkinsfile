@@ -14,12 +14,12 @@ pipeline{
     //     }
     // }
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from Bitbucket repository
-                git 'https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         // Checkout the code from Bitbucket repository
+        //         git 'https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git'
+        //     }
+        // }
         
         stage('Deploy') {
             steps {
