@@ -1,8 +1,8 @@
 # Define variables
 $repoUrl = "https://username:password@bitbucket.org/username/repo.git"
 $localRepoPath = "C:\cftest"
-$deployPath = "C:\Path\To\Deployment"
-$backupPath = "C:\Path\To\Backup"
+# $deployPath = "C:\Path\To\Deployment"
+# $backupPath = "C:\Path\To\Backup"
 
 # Change directory to the local repository
 cd $localRepoPath
