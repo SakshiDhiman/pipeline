@@ -1,5 +1,5 @@
 # Define variables
-$repoUrl = "https://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@github.com/SakshiDhiman/cftest.git"
+$repoUrl = "https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git"
 $localRepoPath = "C:\cftest"
 # $deployPath = "C:\Path\To\Deployment"
 # $backupPath = "C:\Path\To\Backup"
