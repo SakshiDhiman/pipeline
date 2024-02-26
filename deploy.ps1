@@ -8,7 +8,7 @@ $localRepoPath = "C:\cftest"
 cd $localRepoPath
 
 # Pull the latest changes from the Bitbucket repository
-git pull https://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@github.com/SakshiDhiman/cftest.git
+git pull origin main
 
 # # Backup current deployment
 # Copy-Item -Path $deployPath -Destination $backupPath -Recurse -Force
