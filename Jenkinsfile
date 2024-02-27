@@ -14,12 +14,12 @@ pipeline{
     //     }
     // }
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from Bitbucket repository
-                git 'git@github.com:SakshiDhiman/cftest.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         // Checkout the code from Bitbucket repository
+        //         git 'git@github.com:SakshiDhiman/cftest.git'
+        //     }
+        // }
         
         stage('Deploy') {
             steps {
