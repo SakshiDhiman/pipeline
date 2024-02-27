@@ -13,7 +13,7 @@ pipeline{
                 //powershell(script: '.\\deploy.ps1')
                 //sh 'pwsh ./deploy.ps1'
                 powershell '''
-                .\deploy.ps1
+                .\\deploy.ps1
                 '''
             }
         }
