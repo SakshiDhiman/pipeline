@@ -6,6 +6,7 @@ $localRepoPath = "C:\cftest"
 
 # Change directory to the local repository
 cd $localRepoPath
+echo pwd
 
 # Pull the latest changes from the Bitbucket repository
 #git 'https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git'
