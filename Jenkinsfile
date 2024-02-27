@@ -11,7 +11,7 @@ pipeline{
             steps {
                 echo "Call the PowerShell script for deployment"
                 //powershell(script: '.\\deploy.ps1')
-                sh 'pwsh deploy.ps1'
+                sh 'pwsh ./deploy.ps1'
             }
         }
     }
