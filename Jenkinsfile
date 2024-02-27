@@ -2,8 +2,8 @@ currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
 pipeline{
     
     agent {label 'windows'}
-    environment {
-        currentDate = sh(returnStdout: true, script: 'date +%Y%m%d.%H%M%S').trim()
+    // environment {
+    //     currentDate = sh(returnStdout: true, script: 'date +%Y%m%d.%H%M%S').trim()
     }
     // stages{
     //     stage("react_notes_app"){
