@@ -23,7 +23,7 @@ pipeline{
         
         stage('Deploy') {
             steps {
-                // Call the PowerShell script for deployment
+                echo "Call the PowerShell script for deployment"
                 powershell(script: './deploy.ps1')
             }
         }
