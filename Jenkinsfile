@@ -3,7 +3,7 @@ pipeline{
     
     agent {label 'windows'}
         
-    }
+    
     stages {       
         stage('Deploy') {
             steps {
@@ -12,4 +12,4 @@ pipeline{
             }
         }
     }
-
+}
