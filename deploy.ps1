@@ -1,5 +1,5 @@
 # Define variables
-$repoUrl = "https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git"
+$repoUrl = "git@github.com:SakshiDhiman/cftest.git"
 $localRepoPath = "C:\cftest"
 # $deployPath = "C:\Path\To\Deployment"
 # $backupPath = "C:\Path\To\Backup"
@@ -8,7 +8,7 @@ $localRepoPath = "C:\cftest"
 cd $localRepoPath
 
 # Pull the latest changes from the Bitbucket repository
-git 'https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git'
+#git 'https://SakshiDhiman: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@github.com/SakshiDhiman/cftest.git'
 git pull origin main
 
 # # Backup current deployment
