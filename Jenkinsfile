@@ -12,9 +12,10 @@ pipeline{
                 echo "Call the PowerShell script for deployment"
                 //powershell(script: '.\\deploy.ps1')
                 //sh 'pwsh ./deploy.ps1'
-                powershell '''
-                .\\deploy.ps1
-                '''
+                // powershell '''
+                // .\\deploy.ps1
+                // '''
+                PowerShell(". '.\\deploy.ps1'")
             }
         }
     }
