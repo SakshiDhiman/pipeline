@@ -10,7 +10,7 @@ pipeline{
         stage('Deploy') {
             steps {
                 echo "Call the PowerShell script for deployment"
-                powershell(script: 'pipeline\\deploy.ps1')
+                powershell(script: 'C:\\Jenkins\\deploy.ps1')
                 //sh 'pwsh ./deploy.ps1'
                 // powershell '''
                 // .\\deploy.ps1
