@@ -15,7 +15,7 @@ pipeline{
                 // powershell '''
                 // .\\deploy.ps1
                 // '''
-                powerShell(". '.\\deploy.ps1'")
+                powerShell(script: ". '.\\deploy.ps1'")
             }
         }
     }
