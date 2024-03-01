@@ -11,11 +11,6 @@ pipeline{
             steps {
                 echo "Call the PowerShell script for deployment"
                 powershell(script: 'C:\\Jenkins\\deploy.ps1')
-                //sh 'pwsh ./deploy.ps1'
-                // powershell '''
-                // .\\deploy.ps1
-                // '''
-                //powershell(script: ". '.\\deploy.ps1'")
             }
         }
     }
